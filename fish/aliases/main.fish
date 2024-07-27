@@ -17,7 +17,7 @@ alias diff='colordiff'              # requires colordiff package
 alias du='du -c -h'
 alias free='free -m'                # show sizes in MB
 alias grep='grep --color=auto'
-alias grep='grep --color=tty -d skip'
+alias grep='grep --color=tty'
 alias mkdir='mkdir -p -v'
 alias more='less'
 alias nano='nano -w'
