@@ -7,7 +7,7 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 
 2. 复制配置文件
 
-` cp alacritty.toml ~/.config/alacritty `
+``` cp alacritty.toml ~/.config/alacritty ```
 
 3. 重启 alacritty
 
