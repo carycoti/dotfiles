@@ -9,6 +9,7 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 
 ```bash
 cp alacritty.toml ~/.config/alacritty/
+```
 
 ## 3. 重启 alacritty
 
