@@ -1,0 +1,42 @@
+import = [
+    "~/.config/alacritty/themes/themes/monokai_charcoal.toml"
+]
+live_config_reload = true
+[shell]
+program = "/usr/bin/fish"
+args = ["-l"]
+[window]
+startup_mode = "Windowed"
+title = "Alacritty"
+dynamic_title = false 
+decorations_theme_variant = "None"
+decorations = "None"
+opacity = 0.9
+blur = true 
+[scrolling]
+history = 10000
+multiplier = 3
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size =12 
+builtin_box_drawing = true 
+[bell]
+animation = "Linear"
+duration = 0
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = false
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+unfocused_hollow = true
+thickness = 0.15
+[mouse]
+hide_when_typing = false
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
