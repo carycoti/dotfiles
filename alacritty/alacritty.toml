@@ -6,7 +6,7 @@ live_config_reload = true
 program = "/usr/bin/fish"
 args = ["-l"]
 [window]
-startup_mode = "Windowed"
+startup_mode = "Maximized"
 title = "Alacritty"
 dynamic_title = false 
 decorations_theme_variant = "None"
