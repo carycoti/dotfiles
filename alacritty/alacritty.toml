@@ -8,18 +8,18 @@ args = ["-l"]
 [window]
 startup_mode = "Maximized"
 title = "Alacritty"
-dynamic_title = false 
+dynamic_title = false
 decorations_theme_variant = "None"
 decorations = "None"
 opacity = 0.9
-blur = true 
+blur = true
 [scrolling]
 history = 10000
 multiplier = 3
 [font]
 normal = { family = "Hack Nerd Font", style = "Regular" }
-size =12 
-builtin_box_drawing = true 
+size =12
+builtin_box_drawing = true
 [bell]
 animation = "Linear"
 duration = 0
